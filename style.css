@@ -40,11 +40,12 @@ a {
 .signup {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 200px;
     padding-right: 200px;
-    gap: 30px;
+    gap: 40px;
 }
 
 .signupimage img{
@@ -183,6 +184,12 @@ a {
     background-color: #1752b1 ;
 }
 
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
