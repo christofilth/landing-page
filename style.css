@@ -6,8 +6,7 @@ body {
 }
 
 .container {
-    padding-left: 200px;
-    padding-right: 200px;
+    
     background-color: #1F2937;
 }
 
@@ -16,6 +15,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
@@ -39,8 +40,10 @@ a {
 .signup {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
     gap: 30px;
 }
 
@@ -59,4 +62,25 @@ button {
     font-weight: 700;
     font-size: 18px;
     color: white;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+    width: 130px;
+}
+
+button:hover {
+    background-color: #1752b1 ;
+}
+
+.information {
+    display: flex;
+    background-color: white;
+    color: #1F2937;
+    justify-content: center;
+    
+}
+
+.information .text {
+    font-size: 36px;
+    font-weight: 900;
 }
