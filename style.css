@@ -57,7 +57,7 @@ a {
     font-weight:900;
 }
 
-button {
+.textwithbutton button {
     background-color: #3882F6;
     font-weight: 700;
     font-size: 18px;
@@ -68,7 +68,7 @@ button {
     width: 130px;
 }
 
-button:hover {
+.textwithbutton button:hover {
     background-color: #1752b1 ;
 }
 
@@ -76,11 +76,64 @@ button:hover {
     display: flex;
     background-color: white;
     color: #1F2937;
-    justify-content: center;
-    
+    align-items: center;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 .information .text {
     font-size: 36px;
     font-weight: 900;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.individual-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.individual-card button {
+    height: 150px;
+    width: 150px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-shrink: 1;
+    
+
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quoteauthor {
+    text-align: right;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-right: 20px;
+    font-size: 28px;
 }
